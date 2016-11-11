@@ -1,0 +1,231 @@
+/*
+General
+---------------------------------------------------------------------------------------------------- */
+body {background-color:#f9f9f9;}
+h1, h2 {font-weight:300;}
+h3, h4, h5, h6 {font-weight:400;}
+strong {font-weight:500;}
+.container {max-width:1350px;}
+.breadcrumb {background-color:transparent;}
+.breadcrumb > li {font-size:12px;}
+.open > .dropdown-menu {border-radius:4px;}
+a[href^="tel"] {color:inherit;text-decoration:none;}
+a, a:hover, a:active, a:focus {outline:0;}
+
+/*
+Charts
+---------------------------------------------------------------------------------------------------- */
+.min-chart, .min-chart canvas {height:45px !important;width:45px !important;}
+.min-chart .percent {font-size:13px;line-height:45px;}
+
+/*
+Helpers
+---------------------------------------------------------------------------------------------------- */
+/*removes table borders*/
+.noborder.table td, .noborder.table th {border:0 none;}
+.noborder {border:0 none;}
+.noboxshadow {box-shadow:none;}
+.nobackground {background:transparent !important;}
+.wordbreak {word-wrap:break-word;}
+.hide {display:none;}
+.show {display:block;}
+.showhide:before{content:"Hide";}
+.showhide.collapsed:before {content:"Show";}
+/*vertically align element*/
+.vcenter {display:inline-block;vertical-align:middle;float:none;}
+
+/*
+Navigation
+---------------------------------------------------------------------------------------------------- */
+.bg-tenfour {background-color:#151e2b !important;}
+.bg-tenfour .tag {border-radius:4px;font-size:12px;padding:0 4px;}
+.bg-tenfour .tag.pink {color:#fff;}
+.bg-tenfour .btn-primary-outline {border-color:#fff;border-radius:4px;color:rgba(255,255,255,1) !important;}
+.btn-primary-outline.active, .btn-primary-outline.focus, .btn-primary-outline:active, .btn-primary-outline:focus, .open > .btn-primary-outline.dropdown-toggle {background-color:#fff;border-color:#fff;color:rgba(55,58,60,1) !important;}
+.navbar-dark .navbar-nav .active {box-shadow:0px 3px 0px 0px #facb4e;}
+.navbar-dark .navbar-companyname {color:#fff;}
+.navbar-nav .nav-link, .navbar-nav .open > .dropdown-menu {border-radius:4px;text-align:left;width:100%;}
+.navbar-nav .btn-group {display:block;margin:19px 0;}
+.navbar-nav .btn-group a {text-transform:capitalize;}
+.navbar-nav {padding-right:0.9375rem;padding-left:0.9375rem;}
+.navbar-nav .nav-item .nav-link {margin:0;padding:16px 16px;}
+.navbar-nav .nav-item.btn-group .nav-link {padding:6px 16px;}
+.navbar-nav .nav-item + .nav-item {margin-left:0;}
+
+/*
+Secondary Navigation
+---------------------------------------------------------------------------------------------------- */
+.secondNav .list-group {border-radius:4px;}
+.secondNav .list-group .list-group-item {color:rgba(0,0,0,0.5);}
+.secondNav .list-group .list-group-item.active, .secondNav .list-group .list-group-item.active:hover {background:#f5f5f5;color:rgba(0,0,0,1);}
+.secondNav .list-group .list-group-item:hover {background-color:#fff;color:rgba(0,0,0,0.75);}
+.secondNav .list-group .list-group-item:nth-child(1) {border-radius:4px 4px 0 0;}
+.secondNav .list-group .list-group-item:nth-last-child(1) {border-radius:0 0 4px 4px;}
+
+/*
+Logo
+---------------------------------------------------------------------------------------------------- */
+.logonav .nav-item {background-color:#fff;margin-right:0;width:100%;}
+
+/*
+Tables - Responsive
+---------------------------------------------------------------------------------------------------- */
+table.table-trueresponsive {border-collapse:collapse;border-top:0 none;width:100%;}
+table.table-trueresponsive thead tr {border-bottom:2px solid #ccc;}
+table.table-trueresponsive th, table.table-trueresponsive td {padding:2px 5px;text-align:left;vertical-align:middle;}
+table.table-trueresponsive th {text-align:left;}
+table.table-trueresponsive th:first-of-type {border-radius:5px 0 0 0;}
+table.table-trueresponsive th:last-of-type {border-radius:0 5px 0 0;}
+table.table-trueresponsive tbody tr {border-bottom:1px solid #ccc;}
+table.table-trueresponsive span {display:none;width:50%;}
+/*firefox fix responsive table*/
+@-moz-document url-prefix() {fieldset{display:table-cell;}}
+
+/*
+List Group - Remove Borders
+---------------------------------------------------------------------------------------------------- */
+.noborder.list-group a {border:0 none;}
+
+/*
+Card
+---------------------------------------------------------------------------------------------------- */
+.card {border-radius:4px;overflow:visible;}
+.card.clickable:hover {cursor:pointer;}
+.tab-content .card {border:1px solid #eceeef;border-radius:0;box-shadow:none;}
+.tab-content .card.new {border-color:#4b515d;font-weight:700;}
+
+/*
+Buttons
+---------------------------------------------------------------------------------------------------- */
+.btn-primary {background-color:#0078e7;}
+.btn-green {background-color:#20af38;}
+.btn-orange {background-color:#ef6a4c;}
+.btn-red {background-color:#ef285c;}
+
+/*
+Button - Floating
+---------------------------------------------------------------------------------------------------- */
+.btn-floating.btn-large {height:50px;line-height:50px;text-align:center;width:50px;}
+.btn-floating.btn-large i {line-height:50px;}
+.btn-floating.btn-xlarge {height:100px;line-height:100px;text-align:center;width:100px;}
+.btn-floating.btn-xlarge i {font-size:48px;line-height:100px;}
+/*overwrites mdb button floating flat combined styling*/
+.btn-floating.btn-flat {background-color:transparent;box-shadow:none;}
+.btn-floating.btn-flat:focus, .btn-floating.btn-flat:hover {background-color:transparent !important;}
+.open .btn-floating.btn-flat {background-color:#dfdfdf !important;}
+.btn-floating.btn-flat i {color:#656565;}
+.btn-floating.btn-flat:focus i, .btn-floating.btn-flat:hover i {color:#000;}
+
+/*
+Label
+---------------------------------------------------------------------------------------------------- */
+.label {border-radius:4px;font-weight:400;}
+.label-new {background-color:#fff;box-shadow:inset 0px 0px 0px 1px #4b515d;color:#000;font-weight:700;}
+
+/*
+Text
+---------------------------------------------------------------------------------------------------- */
+.text-muted {color:#9b9b9b;}
+.text-pending {color:#666;}
+.text-declined {color:#ef1b57;}
+.text-medium {font-size:14px;}
+
+/*
+Icons
+---------------------------------------------------------------------------------------------------- */
+.mdi-trophy-outline {color:#20af38;}
+.mdi-marker-check {color:#20af38;}
+.mdi-information {color:#0078e7;}
+
+/*
+Forms
+---------------------------------------------------------------------------------------------------- */
+/*.form-control {padding:0.2rem 0 0.3rem;}*/
+button, .btn {text-transform:uppercase;}
+.filled-in[type="checkbox"]:checked + label::after {background-color:#12ad2a;border-color:#12ad2a;}
+.btn-flat {margin:6px;padding:0.375rem 1rem;}
+a.btn-flat, a.btn-flat:hover {color:#000;}
+[type="checkbox"] + label {height:auto;}
+.table thead th, .table td, .table th {vertical-align:middle;}
+/*.md-form, .md-form .btn {margin-bottom:2rem;}*/
+/* overwrites mdb validation color */
+input.valid[type="date"], input.valid[type="date"]:focus, input.valid[type="datetime-local"], input.valid[type="datetime-local"]:focus, input.valid[type="email"], input.valid[type="email"]:focus, input.valid[type="number"], input.valid[type="number"]:focus, input.valid[type="password"], input.valid[type="password"]:focus, input.valid[type="search-md"], input.valid[type="search-md"]:focus, input.valid[type="tel"], input.valid[type="tel"]:focus, input.valid[type="text"], input.valid[type="text"]:focus, input.valid[type="time"], input.valid[type="time"]:focus, input.valid[type="url"], input.valid[type="url"]:focus, textarea.md-textarea.valid, textarea.md-textarea.valid:focus {border-color:#ccc;box-shadow:none;}
+/* overwrites mdb spacing to match mdb input */
+.select-wrapper input.select-dropdown {height:2.1rem;line-height:2.1rem;margin-top:0px;padding:0.6875rem 0 0.6rem;}
+/* overwrites default IE11, Edge10/11 clear field button */
+.form-control::-ms-clear {display:none;}
+
+/*
+Modal
+---------------------------------------------------------------------------------------------------- */
+.modal-blue {background-color:#0078e7;color:#fff;border-bottom:0 none;}
+.modal-red {background-color:#db1620;color:#fff;border-bottom:0 none;}
+.modal-content {border-radius:4px;}
+.modal-footer {border-top:0 none;}
+
+/*
+Stepper
+---------------------------------------------------------------------------------------------------- */
+.stepper-steps-isOffset {position:relative;top:-30px;margin:0 15px -30px 15px;}
+.stepper-step {float:left;width:33.333333333333%;padding:24px 0;cursor:pointer;color:#000;position:relative;text-align:center;}
+.stepper-step a {color:#000;}
+.stepper-step:not(.stepper-step-isDisabled):hover, .stepper-step:not(.stepper-step-isDisabled):hover .stepper-stepContent {background-color:#ececec;}
+.stepper-step:first-child {text-align:left;}
+.stepper-step:last-child {text-align:right;}
+.stepper-step::after {content:'';position:absolute;bottom:36px;left:0;right:0;height:1px;background:rgba(0,0,0,0.1);}
+.stepper-step:first-child::after {left:24px;}
+.stepper-step:last-child::after {right:24px;}
+.stepper-step-isActive {font-weight:600;}
+.stepper-step-isValid {font-weight:600;}
+.stepper-step-isDisabled {color:#9b9b9b;cursor:default;}
+.stepper-stepMarker {display:inline-block;width:24px;height:24px;margin-right:8px;text-align:center;color:white;line-height:24px;background-color:#9b9b9b;border-radius:24px;font-weight:100;}
+.stepper-step-isActive .stepper-stepMarker {background-color:#017fe7;}
+.stepper-step-isValid .stepper-stepMarker {background-color:#0fb12f;}
+.stepper-stepContent {display:inline-block;position:relative;z-index:2;padding:0 8px;background-color:#f9f9f9;}
+
+/*
+Media Queries
+---------------------------------------------------------------------------------------------------- */
+/*Extra small devices (portrait phones, less than 34em)
+No media query since this is the default in Bootstrap*/
+
+/*Small devices (landscape phones, 34em and up)*/
+@media (min-width: 34em) {
+}
+
+/*Medium devices (tablets, 48em and up)*/
+@media (min-width: 48em) {
+}
+
+/*Large devices (desktops, 62em and down)*/
+@media (max-width: 62em) {
+  table.table-trueresponsive {border:0;}
+  table.table-trueresponsive thead {display:none;}
+  table.table-trueresponsive td, table.table-trueresponsive tr {display:block;}
+  table.table-trueresponsive span, table.table-trueresponsive p {display:inline-block;padding-left:5px;padding-right:10px;text-indent:0;}
+  table.table-trueresponsive tr {margin-bottom:20px;border:1px solid #ccc;border-radius:5px;}
+  table.table-trueresponsive td {padding-left:20%;text-indent:-20%;}
+  table.table-trueresponsive th {text-align:left;vertical-align:middle;}
+  /*overwrites mdb dropdown menu right alignment*/
+  nav .dropdown-menu-right {right:auto;}
+  /*overwrites stepper styling*/
+  .stepper-step {width:100%;}
+  .stepper-step::after, .stepper-step:first-child::after, .stepper-step:last-child::after {display:none;}
+   table.table-trueresponsive p {margin-bottom:0; }
+}
+
+/*Large devices (desktops, 62em and up)*/
+@media (min-width: 62em) {
+  .logonav .nav-item {margin-right:18px;width:176px;}
+  .navbar-nav .nav-item .nav-link {margin:9px 0;}
+  .navbar-nav .nav-item.btn-group .nav-link {margin:0;}
+  .navbar-nav .nav-link, .navbar-nav .open > .dropdown-menu {width:auto;}
+  .navbar-nav {padding-right:0;padding-left:0;}
+}
+
+/*Extra large devices (large desktops, 75em and up)*/
+@media (min-width: 75em) {
+}
+.errorLabel {
+    width:100% !important;
+}
